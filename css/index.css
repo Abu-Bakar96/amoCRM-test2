@@ -1,0 +1,560 @@
+body {
+  background-color: #1e1e1e;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  min-width: 830px;
+}
+header {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 95px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  min-width: 440px;
+  justify-content: space-between;
+}
+.menu-item {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  color: #e4e5ea;
+}
+.number {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #e4e5ea;
+}
+
+.icons {
+  display: flex;
+  min-width: 80px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.advertising {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+
+  color: #e4e5ea;
+}
+
+
+h1 {
+  width: 362px;
+  height: 116px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  color: #e4e5ea;
+  margin: 0 0;
+}
+h2 {
+  width: 247px;
+  height: 58px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.sale {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #e4e5ea;
+}
+.right-wrapper-text {
+  margin-bottom: 40px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: right;
+  color: #e4e5ea;
+}
+.free-consultation {
+  background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%),
+    linear-gradient(0deg, #e4e5ea, #e4e5ea);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+main {
+  max-width: 1140px;
+  margin: 0 auto 69px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gifts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.gifts-mobile {
+  display: none;
+}
+
+.gift-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+
+  text-align: right;
+  letter-spacing: 0.05em;
+
+  color: #e4e5ea;
+  margin-bottom: 6px;
+}
+
+.gift-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: right;
+
+  color: #e4e5ea;
+}
+.right-wrapper {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+button {
+  width: 262px;
+  height: 61px;
+
+  background: #4077f3;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #e4e5ea;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 56px;
+}
+
+.footer-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #656566;
+  margin-bottom: 20px;
+}
+.footer-text {
+  color: white;
+  margin-bottom: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #e4e5ea;
+}
+.footer-text:last-child {
+  margin-bottom: 0px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 33px;
+}
+
+.footer-items:last-child {
+  text-align: end;
+}
+
+.menu-general {
+  display: flex;
+  gap: 50px;
+}
+
+.contact-text {
+  color: white;
+  margin-bottom: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #e4e5ea;
+}
+.contact-text:last-child {
+  margin-bottom: 0px;
+}
+
+.bottom-footer-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+
+  text-align: right;
+
+  color: #e4e5ea;
+  margin-bottom: 5px;
+}
+.bottom-footer-text:last-child {
+  margin-bottom: 0;
+  text-decoration-line: underline;
+}
+
+.first-elipse {
+  position: absolute;
+  width: 311px;
+  height: 311px;
+  left: -102px;
+  top: 251px;
+
+  background: #961a1a;
+  opacity: 0.5;
+  filter: blur(196px);
+}
+
+.second-elipse {
+  z-index: -1;
+  position: absolute;
+  width: 83px;
+  height: 83px;
+  left: 519px;
+  top: 83px;
+  border-radius: 50%;
+
+  background: radial-gradient(
+      64% 64% at 27.25% 26.5%,
+      rgba(255, 208, 208, 0.536) 0%,
+      rgba(212, 93, 93, 0.264) 59.67%,
+      rgba(167, 49, 49, 0.248) 78.59%,
+      rgba(130, 25, 25, 0.248) 100%
+    );
+  box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+  backdrop-filter: blur(2px);
+}
+
+.third-elipse {
+  position: absolute;
+  width: 259px;
+  height: 259px;
+  right: 30%;
+  top: -154px;
+
+  background: #833ab4;
+  opacity: 0.5;
+  filter: blur(196px);
+}
+
+.fourth-elipse {
+  z-index: -1;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  right: 10%;
+  top: -2px;
+
+  background: radial-gradient(
+      64% 64% at 27.25% 26.5%,
+      rgba(236, 208, 255, 0.64) 0%,
+      rgba(161, 93, 207, 0.24) 59.67%,
+      rgba(118, 49, 164, 0.208) 78.59%,
+      rgba(86, 24, 128, 0.232) 100%
+    );
+  box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+  filter: blur(5px);
+  backdrop-filter: blur(2px);
+  border-radius: 50%;
+}
+
+.fifth-elipse {
+  z-index: -1;
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  right: 30%;
+  top: 547px;
+  border-radius: 50%;
+
+  background: radial-gradient(
+      64% 64% at 27.25% 26.5%,
+      rgba(255, 208, 208, 0.48) 0%,
+      rgba(212, 93, 93, 0.248) 59.67%,
+      rgba(167, 49, 49, 0.264) 78.59%,
+      rgba(130, 25, 25, 0.232) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+  filter: blur(2.5px);
+  backdrop-filter: blur(2px);
+}
+.first-elipse-mobile,
+.second-elipse-mobile {
+  display: none;
+}
+
+@media (max-width: 320px) {
+  body {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    background: #1e1e1e;
+  }
+  main {
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    /* width: 100%; */
+    width: 320px;
+    display: block;
+    padding-left: 15px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-image: url(../img/bg.svg);
+    background-size: cover;
+    margin-bottom: 0;
+  }
+  header {
+    width: 320px;
+    margin-bottom: 0px;
+    background: #1e1e1e;
+    box-sizing:border-box;
+
+  }
+  .logo,
+  .first-elipse,
+  .second-elipse,
+  .third-elipse,
+  .fourth-elipse,
+  .fifth-elipse,
+  .number,
+  .icons,
+  .advertising,
+  .menu-item:last-child {
+    display: none;
+  }
+  .menu {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .menu-item {
+    font-size: 12px;
+  }
+  h1 {
+    width: 272px;
+    height: 88px;
+    line-height: 44px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #e4e5ea;
+  }
+  h2 {
+    width: 186px;
+    height: 44px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 44px;
+
+    background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 15px;
+  }
+  .sale {
+    width: 271px;
+    height: 44px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #e4e5ea;
+    margin-bottom: 45px;
+  }
+  .right-wrapper {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .right-wrapper-text {
+    margin-bottom: 20px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+    color: #e4e5ea;
+  }
+
+  .line {
+    width: 10px;
+    height: 1px;
+    border: none;
+    background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+  }
+  .gifts {
+    display: none;
+  }
+  .gifts-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 300px;
+    gap: 10px;
+  }
+  .gifts-items-mobile {
+    display: flex;
+    width: 47%;
+    gap: 5px;
+    align-items: center;
+  }
+  .gift-name-mobile {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #e4e5ea;
+  }
+  button {
+    display: none;
+  }
+
+  footer {
+    width: 320px;
+    padding-left: 15px;
+    padding-top: 40px;
+    background-color: black;
+    box-sizing: border-box;
+  }
+  .footer {
+    display: block;
+  }
+  .footer-items {
+    margin-bottom: 30px;
+  }
+  .footer-items:last-child {
+    text-align: start;
+  }
+  .bottom-footer {
+    padding-bottom: 20px;
+  }
+  .footer-name {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .footer-text {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .contact-text {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .bottom-footer-text {
+    text-align: start;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .right-wrapper {
+    height: 110px;
+  }
+  .first-elipse-mobile {
+
+    display: block;
+    position: absolute;
+    width: 259px;
+    height: 259px;
+    left: 258px;
+    top: 107px;
+
+    background: #833ab4;
+    opacity: 0.5;
+    filter: blur(196px);
+    z-index: 3;
+  }
+  .second-elipse-mobile {
+    display: block;
+    position: absolute;
+    width: 211px;
+    height: 210px;
+    left: -55px;
+    top: 241px;
+
+    background: #961a1a;
+    opacity: 0.5;
+    filter: blur(196px);
+  }
+}
